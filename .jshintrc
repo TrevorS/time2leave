@@ -1,0 +1,7 @@
+{
+  "indent": 2,
+  "maxlen": 200,
+  "newcap": true,
+  "esnext": true,
+  "node": true
+}

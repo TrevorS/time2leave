@@ -1,0 +1,7 @@
+{
+  "baseURL": "services.my511.org/Transit2.0",
+  "token": "85fc1228-08a8-4c66-9ac1-26ecc48c86a1",
+  "headers": {
+    "User-Agent": "Time2Leave/0.0.1"
+  }
+}
