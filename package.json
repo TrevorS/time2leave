@@ -22,13 +22,16 @@
   "files": [
     "index.js",
     "index.html",
-    "index.css"
+    "index.css",
+    "app.js"
   ],
   "keywords": [
     "electron-app"
   ],
   "dependencies": {
     "electron-debug": "^0.2.1",
+    "menubar": "^2.3.0",
+    "photon": "git+https://github.com/connors/photon.git",
     "q": "^1.4.1",
     "request": "^2.65.0",
     "request-promise": "^1.0.2",
