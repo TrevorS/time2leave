@@ -1,17 +1,31 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Electron boilerplate</title>
-		<link rel="stylesheet" href="index.css">
-	</head>
-	<body>
-		<div class="container">
-			<header>
-				<h1>Electron boilerplate</h1>
-			</header>
-			<section class="main"></section>
-			<footer></footer>
+
+<head>
+	<meta charset="utf-8">
+	<title>Time2Leave</title>
+	<link rel="stylesheet" href="node_modules/photon/dist/css/photon.css">
+	<link rel="stylesheet" href="index.css">
+	<script src="app.js"></script>
+</head>
+
+<body>
+	<div class="window">
+		<div class="window-content">
+			<div class="pane">
+
+				<span class="t2l-header">
+					<h1 class="title t2l-title">Time2Leave</h1>
+				</span>
+
+				<form>
+					<select id="agency-select" class="form-control"></select>
+					<button id="submit-btn" class="btn btn-default">Save</button>
+				</form>
+
+				<div id="results"></div>
+			</div>
 		</div>
-	</body>
+	</div>
+</body>
 </html>
