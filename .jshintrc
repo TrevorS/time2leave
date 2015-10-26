@@ -3,5 +3,9 @@
   "maxlen": 200,
   "newcap": true,
   "esnext": true,
-  "node": true
+  "node": true,
+  "globals": {
+    "window": false,
+    "document": false
+  }
 }
